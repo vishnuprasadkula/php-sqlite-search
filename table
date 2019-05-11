@@ -1,0 +1,97 @@
+add this before php code in search.php
+
+  <style>
+#form_container
+{
+  padding:15px 15px;
+  margin-top:15px;
+  background: rgba(0,0,0,0.5);  
+  color:#fff;
+}
+body
+{
+  background-color: #000;
+  background-image: url("");
+  background-size: cover;
+  background-repeat:no-repeat;
+
+}
+.upload-btn-wrapper 
+{
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.upload-btn-wrapper input[type=file] 
+{
+  font-size: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+
+</style>
+
+
+
+            <style>
+        #orig_article_block {
+        position:fixed;
+        left:0px;
+        bottom:0px;
+        height:60px;
+        width:100%;
+        background:#222;
+        color:#fff;
+        padding: 10px;
+        }
+        #orig_article_block a
+        {
+          color:#fff;
+          text-decoration: underline;
+        }
+
+        
+
+
+        table {
+  width:100%;
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 15px;
+  text-align: left;
+}
+table#t01 tr:nth-child(even) {
+  background-color: #eee;
+}
+table#t01 tr:nth-child(odd) {
+ background-color: #fff;
+}
+table#t01 th {
+  background-color: black;
+  color: white;
+}
+      </style>
+      
+      
+   
+     <table  id="interact" class="table table-striped table-bordered" cellspacing="0" width="100%">
+<table id="t01"> 
+    <thead>
+        <tr>
+        	<th>row name</th>
+            <th>row name</th>
+            <th>row name</th>
+            <th>row name</th>
+            <th>row name</th>
+            <th>row name</th>
+            <th>row name</th>
+          
+        </tr>
+    
